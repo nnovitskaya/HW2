@@ -8,13 +8,15 @@
 ```Bash
 git clone https://github.com/nnovitskaya/HW2.git
 cd HW2
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Использование
 Для проверки работоспособности кода с помощью тестов перейдите в папку с проектом и введите в терминал:
 
 ```Bash
-pytest```
+pytest
+```
 
 Для самостоятельного запуска кода вы можете импортировать классы в свой скрипт и запустить программу, например:
 
@@ -28,7 +30,8 @@ recipe = Recipe("Пирожки с картошкой", ingredients)
 shopping_list = ShoppingList()
 shopping_list.add_recipe(recipe, 5)
 
-print(shopping_list.get_list())```
+print(shopping_list.get_list())
+```
 
 ## Автор 
 *ФИО:* Чепасова Анастасия Александровна
